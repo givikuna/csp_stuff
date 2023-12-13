@@ -1,3 +1,4 @@
+
 <!-- on Stackedit -->
 
 <i>HashTable</i> (in <i>RubyLabs</i> when taking in a word, takes radix26 value of it and then it mods by its length <i> n </i> to find out which row to place the word in
@@ -14,7 +15,7 @@ $$ \sum_{i=0}^{n-1} s[i]*26^{n-1-i} $$
 $$ = 2*26^2 + 0*26^1 + 19*26^0 $$
 $$ = 1352 + 0 + 18 = 1371 $$
 
-example of <i>radix25</i> in <i>LiveScript</i> (<i>prelude-ls</i> & <i>lsse</i>):
+example of <i>radix26</i> in <i>LiveScript</i> (<i>prelude-ls</i> & <i>lsse</i>):
 ```LiveScript
 ord  =  -->
 	i =  0
