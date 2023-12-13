@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lsse": "^1.0.23",
+    "prelude-ls": "^1.2.1"
+  }
+}
