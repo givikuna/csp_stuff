@@ -6,10 +6,10 @@ a.each do |el|
   if h.has_key? el.length
     h[el.length] += ", #{el}"
   else
-    h.store(el.length, el)
+    h.store el.length, el
   end
 end
 
-h = h.sort_by { |key, val| key }
+h = h.sort_by { |key, _val| key }
 
 p h
